@@ -8,7 +8,6 @@ function f15() {
          out_15.textContent = +s_151 && +s_152;
       case '||':
          out_15.textContent = +s_151 || +s_152;
-
    }
 }
 
