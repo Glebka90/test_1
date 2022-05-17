@@ -6,8 +6,10 @@ function f15() {
    switch (s_153) {
       case '&&':
          out_15.textContent = +s_151 && +s_152;
+         break          
       case '||':
          out_15.textContent = +s_151 || +s_152;
+         break
    }
 }
 
