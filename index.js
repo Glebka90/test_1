@@ -23,6 +23,11 @@ function t1() {
     out_1.textContent = output;
   }
 }
-
+// output = output + i + '_';
 
 document.querySelector('.b-1').onclick = t1;
+
+document.querySelector('.b-1').addEventListener('click', ()=>{
+  console.log(123123);
+})
+
