@@ -27,7 +27,5 @@ function t1() {
 
 document.querySelector('.b-1').onclick = t1;
 
-document.querySelector('.b-1').addEventListener('click', ()=>{
-  console.log(123123);
-})
+
 
